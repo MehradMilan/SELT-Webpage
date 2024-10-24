@@ -1,0 +1,11 @@
+# .gitignore template
+
+vscode/
+node_modules/
+dist/
+coverage/
+.env
+
+__tests__/
+__snapshots__/
+__pycache__/
