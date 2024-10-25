@@ -27,7 +27,7 @@ Sharif University of Technology - Fall 2024
 
 ## Description
 
-This repository contains static front-end files for the Software Engineering Lab Team (SELT) webpage. The webpage is not hosted yet.
+This repository contains static front-end files for the Software Engineering Lab Team (SELT) webpage. The webpage is available [here](https://mehradmilan.github.io/index.html).
 
 ## Implementation
 
