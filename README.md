@@ -27,7 +27,7 @@ Sharif University of Technology - Fall 2024
 
 ## Description
 
-This repository contains static front-end files for the Software Engineering Lab Team (SELT) webpage. The webpage is not hosted yet.
+This repository contains static front-end files for the Software Engineering Lab Team (SELT) webpage. The webpage is available [here](https://mehradmilan.github.io/index.html).
 
 ## Implementation
 
@@ -80,11 +80,17 @@ atomic commit
 + Cherry-Pick
   + دستور `git cherry-pick` به شما اجازه می‌دهد تا یک یا چند commit خاص از یک شاخه دیگر را به شاخه فعلی خود اضافه کنید، بدون اینکه تمام تغییرات آن شاخه را ادغام کنید.
   + این دستور برای مواقعی کاربرد دارد که می‌خواهید فقط برخی از commitها را از یک شاخه دیگر به شاخه خود اضافه کنید، نه تمام تغییرات آن شاخه را.
+<!-- </div> -->
 
 4.
-+ دستور `reset` برای بازگرداندن HEAD به یک کامیت قبلی استفاده می‌شود و می‌تواند در ایندکس و در صورت لزوم دایرکتوری کاری را هم تغییر دهد.
++ دستور 
+`reset`
+  برای بازگرداندن 
+  HEAD
+  به یک کامیت قبلی استفاده می‌شود و می‌تواند در ایندکس و در صورت لزوم دایرکتوری کاری را هم تغییر دهد.
 
-+ دستور `revert` یک کامیت جدید ایجاد می‌کند که تغییرات یک کامیت مشخص را معکوس می‌کند، بدون اینکه history را حذف کند.
++ دستور `revert`
+ یک کامیت جدید ایجاد می‌کند که تغییرات یک کامیت مشخص را معکوس می‌کند، بدون اینکه history را حذف کند.
 
 + دستور `restore` برای بازگردانی فایل‌ها به یک کامیت مشخص یا به شاخه فعلی استفاده می‌شود. از این دستور برای بازگرداندن تغییرات در فایل‌ها به حالت اولیه استفاده می‌شود.
 
