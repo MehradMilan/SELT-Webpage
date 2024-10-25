@@ -29,7 +29,15 @@ Sharif University of Technology - Fall 2024
 
 This repository contains static front-end files for the Software Engineering Lab Team (SELT) webpage. The webpage is available [here](https://mehradmilan.github.io/index.html).
 
-## Implementation
+## Details of Implementation
+
+یک وب پیچ زدیم. برنچ مستر protected بود و در نتیجه برای مرج شدن باید کسی pull request را approve و سپس مرج می‌کرد. اجازه‌ی کامیت مستقیم روی مستر را هم هیچ کدام از کانتریبیوترها نداشتند.
+
+هر کسی تمایل به زدن فیکس یا فیچری داشت مطابق آن یک برنچ از مستر می‌گرفت و development را روی آن انجام می‌داد و سپس پول ریکوئست ایجاد می‌کرد.
+
+یکبار دو برنچ مستقل یک پارامتر از `style.css` را تغییر دادند و در نتیجه موقع مرج دومین برنچ دچار کانفلیکت شدیم و بار دیگر دو برنچ مستقل عکس‌های متفاوتی برای پروژه انتخاب کرده بودند که دوباره دچار کانفلیکت شده و آن را رفع و سپس مرج کردیم.
+
+وب‌پیج ما متشکل از یک صفحه خانه، پروژه‌ها، درباره‌ی ما، و ارتباط با ماست که هر کدام از این صفحات به طور مستقل داخل یک فایل html داخل فولدر src پیاده سازی شده‌اند و استایلشان توسط فایل `style.css` مشخص می‌شود.
 
 ## Theory Questions
 
