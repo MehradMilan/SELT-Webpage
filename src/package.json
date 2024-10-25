@@ -1,0 +1,11 @@
+{
+  "name": "selt-webpage",
+  "version": "1.0.0",
+  "description": "This repository contains static front-end files for the Software Engineering Lab Team (SELT) webpage. The webpage is not hosted yet.",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mohammad & Mehrad & Hasti",
+  "license": "MIT"
+}

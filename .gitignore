@@ -4,6 +4,7 @@ vscode/
 node_modules/
 dist/
 coverage/
+.idea/
 .env
 
 __tests__/
