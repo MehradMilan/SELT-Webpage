@@ -12,7 +12,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: #eecdff;
+    background-color: #f0f1f8;
 }
 
 /* Container for the form */
@@ -80,6 +80,93 @@ body {
 
 .contact-form button:hover {
     background-color: #0056b3;
+}
+
+/* Reset some basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Container for the whole about page */
+.about-container {
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Header styling */
+.about-header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.about-header h1 {
+    font-size: 2.5rem;
+    color: #333;
+}
+
+.about-header p {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+/* Section titles */
+section h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+/* Mission and Vision sections */
+.mission-section, .vision-section {
+    margin-bottom: 2rem;
+    line-height: 1.6;
+}
+
+.mission-section p, .vision-section p {
+    color: #666;
+    font-size: 1rem;
+}
+
+/* Team Section */
+.team-section {
+    text-align: center;
+}
+
+.team-section h2 {
+    margin-bottom: 1.5rem;
+}
+
+/* Individual team member styling */
+.team-member {
+    display: inline-block;
+    width: 150px;
+    margin: 1rem;
+    text-align: center;
+}
+
+.team-member img {
+    width: 100%;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.team-member h3 {
+    font-size: 1.2rem;
+    color: #333;
+    margin: 0.5rem 0;
+}
+
+.team-member p {
+    font-size: 0.9rem;
+    color: #555;
 }
 
 /* Container for the whole page */
